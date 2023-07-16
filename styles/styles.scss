@@ -1,0 +1,152 @@
+
+// COLORS SETUP
+$primary: #233D4D;
+$primary-transparent: #233d4dc6;
+$secondary: #619B8A;
+$secondary-transparent: #619b8ad0;
+$secondary-dark: #467567;
+$accent: #C2EEE1;
+$white:  #F8F8F8;
+
+
+// BOOTSTRAP FIX
+.nav-link{
+    color: $white !important;
+}
+
+.nav .nav-pills > .active > a > h3 {
+    color: red !important;
+  }
+
+// UTILS
+.bg-primary-transparent{
+    background-color: $primary-transparent;
+}
+
+.bg-secondary-transparent{
+    background-color: $secondary-transparent;
+}
+.bg-secondary-dark{
+    background-color: $secondary-dark;
+}
+
+.bg-accent{
+    background-color: $accent;
+}
+
+.small-text{
+    color: #b1b1b1;
+    font-size: 0.8rem;
+}
+
+.small-icon{
+    width: 32px;
+}
+
+.arrow-right{
+    transform: rotate(-90deg);
+}
+
+.img-content{
+    min-width: 250px;
+    max-width: 450px;
+}
+
+.img-small{
+    max-width: 300px;
+}
+
+.left-25{
+    left: 25%;
+}
+
+.rounded-25{
+    border: 1px solid $primary
+    ;
+    border-radius: 2.5rem;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+#subtopics::-webkit-scrollbar {
+    display: none;
+  }
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+    height: 100vh;
+    background-image: url('../src/img/banner/child-computer.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.header#about-us{
+
+    background-image: url('../src/img/banner/uqroo-night.png') !important;
+}
+
+.header#index{
+    background-image: url('../src/img/banner/technology\ background.jpg') !important;
+
+}
+
+.navbar{
+    // position: fixed;
+    width: 100%;
+    #primary-links{
+        max-width: 40vw;
+        overflow: hidden;
+        ul li{
+            border-right: 2px solid $white;
+        }
+    }
+
+    .nav-item{
+        border-radius: 0.25rem;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        &:hover{
+            background-color: $primary;
+        }
+    }
+
+    #subtopics{
+        flex-wrap: nowrap;
+        overflow: auto;
+        max-width: 60%;
+        li{
+            width: auto;
+        }
+    }
+
+    #secondary-links{
+        ul li{
+            border-left: 2px solid $white;
+        }
+    }
+    .link-box ul li{
+        min-width: 10rem;
+    }
+}
+
+.heading-subtitle{
+    background-color: $accent;
+    padding: 0.5rem;
+    color: $primary;
+    margin-bottom: 2.5rem;
+}
+
+.continue-reading-btn{
+    border: 2px solid $white;
+    max-width:  450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-search{
+    transform: translateX(-64px);
+}
