@@ -13,7 +13,7 @@
     <body>
         <header class="header header-entry d-flex flex-column justify-content-end" id="index">
 
-            <div class="position-absolute top-50 w-50 mx-auto left-25">
+            <div class="position-absolute top-50 w-50 w-md-100 mx-auto left-25 left-md-0">
                 <h1 class="text-white text text-center  fw-bold fs-1 p-4 mb-5 bg-primary-transparent">Technology Blog</h1>
                 <form class="d-flex justify-content-center " action="#">
 
@@ -31,21 +31,21 @@
                             <img class="small-icon" src="../src/img/icons/logo.png" alt="Technology Blog Icon">
                             <span class="fs-6 fw-bold">Technology Blog</span>
                         </a>
-
-                        <ul class="nav">
+                        
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown" > <!-- Add link-box class  #primary-links-->
+                            
+                            <ul class="navbar-nav">
+                            <li class="nav-item active-link">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
                             <li class="nav-item ">
                                 <a class="nav-link " href="#">Popular Entries</a>
                             </li>
-                        </ul>
-                    
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown" > <!-- Add link-box class  #primary-links-->
-
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/">Home</a>
-                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="about-us.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="credits.html">Multimedia credits</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">More</a>
@@ -67,11 +67,11 @@
 
             <div class="row gap-5 ">
                 <div class="col-lg-5 mb-3">
-                    <div class="card p-4 row flex-row ">
-                        <div class="col-4">
+                    <div class="card mx-3 mx-sm-0 p-4 row flex-row ">
+                        <div class="col-sm-4">
                             <img class="img-fluid " src="src/img/banner/child-computer.jpg" alt="Blog entry image">
                         </div>
-                        <div class="col-8">
+                        <div class="col-sm-8">
                             <h3>Online education's effects on learning</h3>
                             <p class="text-secondary">Published: 13/07/2023</p>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolores illum expedita ducimus placeat error voluptatum, tempore pariatur at? Non vel impedit, doloremque officiis est itaque molestiae natus quo harum!</p>
@@ -87,16 +87,16 @@
                 </div>
                 
                 <div class="col-lg-5 gap-3 mb-3">
-                    <div class="card p-4 row flex-row ">
-                        <div class="col-4">
-                            <img class="img-fluid " src="src/img/banner/child-computer.jpg" alt="Blog entry image">
+                    <div class="card mx-3 mx-sm-0 p-4 row flex-row ">
+                        <div class="col-sm-4">
+                            <img class="img-fluid " src="src/img/banner/digital-library.jpg" alt="Blog entry image">
                         </div>
-                        <div class="col-8">
-                            <h3>Online education's effects on learning</h3>
+                        <div class="col-sm-8">
+                            <h3>Subtitle 2</h3>
                             <p class="text-secondary">Published: 13/07/2023</p>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolores illum expedita ducimus placeat error voluptatum, tempore pariatur at? Non vel impedit, doloremque officiis est itaque molestiae natus quo harum!</p>
 
-                            <a class="continue-reading-btn btn btn-primary btn-lg  text-start " href="read-1.html">
+                            <a class="continue-reading-btn btn btn-primary btn-lg  text-start " href="entry/read-1.html">
                                 <div>
                                     <p class="mb-0 text-center d-block ">Read entry</p>
                                 </div>
@@ -106,16 +106,16 @@
 
                 </div>
                 <div class="col-lg-5 gap-3 mb-3">
-                    <div class="card p-4 row flex-row ">
-                        <div class="col-4">
-                            <img class="img-fluid " src="src/img/banner/child-computer.jpg" alt="Blog entry image">
+                    <div class="card mx-3 mx-sm-0 p-4 row flex-row ">
+                        <div class="col-sm-4">
+                            <img class="img-fluid " src="src/img/banner/learning-girl.jpg" alt="Blog entry image">
                         </div>
-                        <div class="col-8">
-                            <h3>Online education's effects on learning</h3>
+                        <div class="col-sm-8">
+                            <h3>Subtitle 3</h3>
                             <p class="text-secondary">Published: 13/07/2023</p>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolores illum expedita ducimus placeat error voluptatum, tempore pariatur at? Non vel impedit, doloremque officiis est itaque molestiae natus quo harum!</p>
 
-                            <a class="continue-reading-btn btn btn-primary btn-lg  text-start " href="read-1.html">
+                            <a class="continue-reading-btn btn btn-primary btn-lg  text-start " href="entry/read-2.html">
                                 <div>
                                     <p class="mb-0 text-center d-block ">Read entry</p>
                                 </div>
@@ -125,16 +125,16 @@
 
                 </div>
                 <div class="col-lg-5 gap-3 mb-3">
-                    <div class="card p-4 row flex-row ">
-                        <div class="col-4">
-                            <img class="img-fluid " src="src/img/banner/child-computer.jpg" alt="Blog entry image">
+                    <div class="card mx-3 mx-sm-0 p-4 row flex-row ">
+                        <div class="col-sm-4">
+                            <img class="img-fluid " src="src/img/banner/teacher-computer.jpg" alt="Blog entry image">
                         </div>
-                        <div class="col-8">
-                            <h3>Online education's effects on learning</h3>
+                        <div class="col-sm-8">
+                            <h3>Subtitle 4</h3>
                             <p class="text-secondary">Published: 13/07/2023</p>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dolores illum expedita ducimus placeat error voluptatum, tempore pariatur at? Non vel impedit, doloremque officiis est itaque molestiae natus quo harum!</p>
 
-                            <a class="continue-reading-btn btn btn-primary btn-lg  text-start " href="read-1.html">
+                            <a class="continue-reading-btn btn btn-primary btn-lg  text-start " href="entry/read-3.html">
                                 <div>
                                     <p class="mb-0 text-center d-block ">Read entry</p>
                                 </div>
@@ -151,7 +151,7 @@
             <h4 class="text-white fw-bold fs-1 p-4 mb-5">Universidad Autónoma del Estado de Quintana Roo</h4>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                         <div class="info mb-2">
                             <img class="small-icon" src="../src/img/icons/web.svg" alt="Web icon"/>
                             <a class="ps-3 text-white" href="www.uqroo.mx">www.uqroo.mx</a>
@@ -160,13 +160,13 @@
                             <img class="small-icon" src="../src/img/icons/location.svg" alt="Location icon"/>
                             <span class="ps-3">UQROO Campus Cozumel</span>
                             <iframe
-                                class="mt-3"
+                                class="mt-3 d-block "
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.4165598252243!2d-86.9427639248859!3d20.489143081028562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e578187c797eb%3A0xcb254426b3d7e54e!2sUniversity%20Academic%20Unit%20Cozumel%20Quintana%20Roo!5e0!3m2!1sen!2smx!4v1689435685681!5m2!1sen!2smx"
                                 width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
 
-                    <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                         <h4>Authors of this post</h4>
                         <ul>
                             <li class="mb-3">
@@ -179,7 +179,7 @@
                             </li>
                             <li class="mb-3">
                                 <img class="small-icon" src="../src/img/icons/user.svg" alt="User icon"/>
-                                Valerio Villas Villanueva
+                                José Valerio Vivas Villanueva
                             </li>
                             <li class="mb-3">
                                 <img class="small-icon" src="../src/img/icons/user.svg" alt="User icon"/>
@@ -188,22 +188,22 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                         <h5>Links</h5>
                         <ul>
                             <li class="mb-3">
-                                <a class="text-white" href="#">Blog</a>
+                                <a class="text-white" href="/">Blog</a>
                             </li>
                             <li class="mb-3">
-                                <a class="text-white" href="#">About us</a>
+                                <a class="text-white" href="about-us.html">About us</a>
                             </li>
                             <li class="mb-3">
-                                <a class="text-white" href="#">Additional resources</a>
+                                <a class="text-white" href="/">Additional resources</a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                         <img class="img-fluid" src="../src/img/icons/uqroo-logo.png" alt="Logo UQROO">
                     </div>
                 </div>
@@ -211,6 +211,6 @@
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="../js/script.js"></script>
+        <!-- <script src="../js/script.js"></script> -->
     </body>
 </html>

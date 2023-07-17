@@ -49,6 +49,10 @@
   left: 25%;
 }
 
+.active-link {
+  background-color: #233D4D;
+}
+
 .rounded-25 {
   border: 1px solid #233D4D;
   border-radius: 2.5rem;
@@ -12111,6 +12115,22 @@ body {
   background-image: url("../src/img/banner/technology background.jpg") !important;
 }
 
+.header#credits {
+  background-image: url("../src/img/banner/digital-library.jpg") !important;
+}
+
+.header#part-1 {
+  background-image: url("../src/img/banner/digital-library.jpg") !important;
+}
+
+.header#part-2 {
+  background-image: url("../src/img/banner/learning-girl.jpg") !important;
+}
+
+.header#part-3 {
+  background-image: url("../src/img/banner/teacher-computer.jpg") !important;
+}
+
 .navbar {
   width: 100%;
 }
@@ -12160,4 +12180,13 @@ body {
 
 .btn-search {
   transform: translateX(-64px);
+}
+
+@media (max-width: 768px) {
+  .w-md-100 {
+    width: 100% !important;
+  }
+  .left-md-0 {
+    left: 0 !important;
+  }
 }/*# sourceMappingURL=styles.css.map */

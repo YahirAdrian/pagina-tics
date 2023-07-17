@@ -16,7 +16,7 @@ $white:  #F8F8F8;
 
 .nav .nav-pills > .active > a > h3 {
     color: red !important;
-  }
+}
 
 // UTILS
 .bg-primary-transparent{
@@ -60,6 +60,10 @@ $white:  #F8F8F8;
     left: 25%;
 }
 
+.active-link{
+    background-color: $primary;
+}
+
 .rounded-25{
     border: 1px solid $primary
     ;
@@ -91,7 +95,21 @@ body{
 
 .header#index{
     background-image: url('../src/img/banner/technology\ background.jpg') !important;
+    
+}
 
+.header#credits{
+    background-image: url('../src/img/banner/digital-library.jpg') !important;
+}
+
+.header#part-1{
+    background-image: url('../src/img/banner/digital-library.jpg') !important;
+}
+.header#part-2{
+    background-image: url('../src/img/banner/learning-girl.jpg') !important;
+}
+.header#part-3{
+    background-image: url('../src/img/banner/teacher-computer.jpg') !important;
 }
 
 .navbar{
@@ -149,4 +167,14 @@ body{
 
 .btn-search{
     transform: translateX(-64px);
+}
+
+@media (max-width: 768px) {
+    .w-md-100{
+        width: 100% !important;
+    }
+
+    .left-md-0{
+        left: 0 !important;
+    }
 }

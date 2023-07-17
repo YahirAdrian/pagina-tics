@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Entry - Online education's effects on learning</title>
+    <title>Technology Blog - About us</title>
     <link rel="shortcut icon" href="../src/img/icons/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
     <body>
         <header class="header header-entry d-flex flex-column justify-content-end" id="about-us">
 
-            <h1 class="text-white fw-bold fs-1 p-4 mb-5 bg-primary-transparent">Online education's effects on learning</h1>
+            <h1 class="text-white fw-bold fs-1 p-4 mb-5 bg-primary-transparent">About us</h1>
             <nav class="navbar navbar-expand-lg bg-secondary-transparent text-white p-1 z-1"  data-bs-theme="dark" id="navbar-main">
         
                 <div class="container-fluid ">
@@ -30,7 +30,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active-link">
                                 <a class="nav-link" href="about-us.html">About us</a>
                             </li>
                             <li class="nav-item">
@@ -49,7 +49,7 @@
         </header>
 
         <main data-bs-spy="scroll" data-bs-target="#navbar-main" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example container mt-5 mb-5" tabindex="0">
-            <article class="container mb-5">
+            <article class="container mb-5 border-bottom pb-5">
                 <div class="row">
                     <div class="col-md-8">
                         <h2 class="text-primary mb-4 display-6 fw-bold">Universidad Autónoma del Estado de Quintana Roo</h2>
@@ -59,19 +59,27 @@
         
                         </p>
         
-                        <div class="info mb-2">
-                            <img class="small-icon" src="../src/img/icons/web-dark.svg" alt="Web icon"/>
-                            <a class="ps-3" href="www.uqroo.mx">www.uqroo.mx</a>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <iframe
+                                    class="mt-3 img-fluid "
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.4165598252243!2d-86.9427639248859!3d20.489143081028562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e578187c797eb%3A0xcb254426b3d7e54e!2sUniversity%20Academic%20Unit%20Cozumel%20Quintana%20Roo!5e0!3m2!1sen!2smx!4v1689435685681!5m2!1sen!2smx"
+                                    width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+    
+                            </div>
+                            <div class="col-md-7">
+                                <div class="info mb-2">
+                                    <img class="small-icon" src="../src/img/icons/web-dark.svg" alt="Web icon"/>
+                                    <a class="ps-3" href="www.uqroo.mx">www.uqroo.mx</a>
+                                </div>
+                                <div class="info mb-2">
+                                    <img class="small-icon" src="../src/img/icons/location-dark.svg" alt="Location icon"/>
+                                    <span class="ps-3">UQROO Campus Cozumel</span>
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="info mb-2">
-                            <img class="small-icon" src="../src/img/icons/location-dark.svg" alt="Location icon"/>
-                            <span class="ps-3">UQROO Campus Cozumel</span>
-                        </div>
-                        <iframe
-                            class="mt-3"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.4165598252243!2d-86.9427639248859!3d20.489143081028562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e578187c797eb%3A0xcb254426b3d7e54e!2sUniversity%20Academic%20Unit%20Cozumel%20Quintana%20Roo!5e0!3m2!1sen!2smx!4v1689435685681!5m2!1sen!2smx"
-                            width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
                     </div>
 
                     <div class="col-md-4 d-flex ">
@@ -83,8 +91,8 @@
 
             <article class="container mb-5">
                 <div class="row">
-                    <div class="col-md-8">
-                        <h3 class="mb-5">Our team</h3>
+                    <div class="col-lg-8">
+                        <h3 class="mb-5" id="team">Our team</h3>
                         <div class="row mb-5">
                             <div class="author-info mb-4 col-md-6">
                                 <div class="row">
@@ -137,7 +145,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <h3 class="mb-5">Our project</h3>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro architecto, voluptas veritatis incidunt ratione non optio, dicta voluptatibus quaerat enim eaque! Odio deserunt laudantium totam fugit beatae harum alias architecto.</p>
@@ -152,7 +160,7 @@
             <h4 class="text-white fw-bold fs-1 p-4 mb-5">Universidad Autónoma del Estado de Quintana Roo</h4>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                         <div class="info mb-2">
                             <img class="small-icon" src="../src/img/icons/web.svg" alt="Web icon"/>
                             <a class="ps-3 text-white" href="www.uqroo.mx">www.uqroo.mx</a>
@@ -161,13 +169,13 @@
                             <img class="small-icon" src="../src/img/icons/location.svg" alt="Location icon"/>
                             <span class="ps-3">UQROO Campus Cozumel</span>
                             <iframe
-                                class="mt-3"
+                                class="mt-3 d-block "
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.4165598252243!2d-86.9427639248859!3d20.489143081028562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e578187c797eb%3A0xcb254426b3d7e54e!2sUniversity%20Academic%20Unit%20Cozumel%20Quintana%20Roo!5e0!3m2!1sen!2smx!4v1689435685681!5m2!1sen!2smx"
                                 width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
 
-                    <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                         <h4>Authors of this post</h4>
                         <ul>
                             <li class="mb-3">
@@ -180,7 +188,7 @@
                             </li>
                             <li class="mb-3">
                                 <img class="small-icon" src="../src/img/icons/user.svg" alt="User icon"/>
-                                Valerio Villas Villanueva
+                                José Valerio Vivas Villanueva
                             </li>
                             <li class="mb-3">
                                 <img class="small-icon" src="../src/img/icons/user.svg" alt="User icon"/>
@@ -189,22 +197,22 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                         <h5>Links</h5>
                         <ul>
                             <li class="mb-3">
-                                <a class="text-white" href="#">Blog</a>
+                                <a class="text-white" href="/">Blog</a>
                             </li>
                             <li class="mb-3">
-                                <a class="text-white" href="#">About us</a>
+                                <a class="text-white" href="about-us.html">About us</a>
                             </li>
                             <li class="mb-3">
-                                <a class="text-white" href="#">Additional resources</a>
+                                <a class="text-white" href="/">Additional resources</a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
                         <img class="img-fluid" src="../src/img/icons/uqroo-logo.png" alt="Logo UQROO">
                     </div>
                 </div>
@@ -212,6 +220,6 @@
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="../js/script.js"></script>
+        <!-- <script src="../js/script.js"></script> -->
     </body>
 </html>
