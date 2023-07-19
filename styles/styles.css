@@ -12132,6 +12132,10 @@ body {
   background-image: url("../src/img/banner/online-classes.jpg") !important;
 }
 
+.header#conclusion {
+  background-image: url("../src/img/banner/teacher-computer.jpg") !important;
+}
+
 .navbar {
   width: 100%;
 }
